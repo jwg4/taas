@@ -17,5 +17,5 @@ HoneyMiddleware(app, db_events=True)
 
 @app.route("/hello")
 def hello_world():
-    return "Hello, world!"
+    return "Hello, World!"
 
